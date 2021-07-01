@@ -1,6 +1,6 @@
 .grid-col {
   flex: 1;
-  padding: 0 3em;
+  padding: 0 2em;
 }
 .grid-col--2,
 .grid-col--3,
@@ -16,6 +16,7 @@
   top: 0;
   overflow-y: hidden;
   background-color: rgba(0, 0, 0);
+  color:#ffffff;
 }
 .gallery-content {
   font-family: "Roboto";
@@ -34,11 +35,15 @@
   align-items: center;
   /* margin-top: 3em; */
 }
+.gallery-desc{
+  color:#f8f8ff;
+}
 
-.gallery-hover:hover .gallery-content {
+.gallery-item:hover .gallery-content {
   visibility: visible;
   opacity: 1;
-  animation: fadeInDown 2s ease-out;
+  
+  transition: .5s ease ;
 }
 .gallery-desc::-webkit-scrollbar {
   width: 20px;
@@ -65,7 +70,8 @@
 }
 
 .pagination-content {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0)
+
 }
 .pagination-content:hover {
   color: white;
@@ -75,4 +81,7 @@
   padding-right: 10px;
   padding-bottom: 4px;
   border-radius: 13px;
+}
+.pagination-icon{
+  color:#ce5841 ;
 }
