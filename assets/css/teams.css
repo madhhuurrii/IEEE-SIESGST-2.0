@@ -74,9 +74,11 @@
 
 .pagination-content {
   color: rgba(0, 0, 0)
+  
 
 }
-.pagination-content:hover {
+
+/* .pagination-content:hover {
   color: white;
   background-color: #ce5841;
   box-sizing: border-box;
@@ -87,8 +89,16 @@
   /* padding:8px;
   padding-left: 5px;
   padding-right: 5px; */
-  border-radius: 13px;
-}
+  /* border-radius: 13px;
+} */ 
+
 .pagination-icon{
   color:#ce5841 ;
+ 
+  
 }
+/* .pagination-icon1{
+  font-size: 15px;
+  color:#ce5841 ;
+ 
+} */
