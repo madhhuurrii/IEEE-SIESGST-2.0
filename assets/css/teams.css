@@ -78,27 +78,19 @@
 
 }
 
-/* .pagination-content:hover {
-  color: white;
-  background-color: #ce5841;
-  box-sizing: border-box;
-  /* padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px; */
-  /* padding:8px;
-  padding-left: 5px;
-  padding-right: 5px; */
-  /* border-radius: 13px;
-} */ 
+.pagination-box {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: #ffffff;
+  width: 15px;
+}
+
+
 
 .pagination-icon{
   color:#ce5841 ;
  
   
 }
-/* .pagination-icon1{
-  font-size: 15px;
-  color:#ce5841 ;
- 
-} */
