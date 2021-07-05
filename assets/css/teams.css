@@ -86,11 +86,14 @@
 .pagination-content {
 	color: rgba(0, 0, 0);
 }
-
+.page-line{
+ border-left: 2px solid #d3d3d3;
+ height:  18px;
+}
 
 .pagination-box {
 	
-  border: 1px solid #555;
+  border: 1px solid #d3d3d3;
   border-radius: 4px;
  
 	background-color: #ffffff;
@@ -102,3 +105,8 @@
 .pagination-icon {
  color: #ce5841;
 }
+.pagination-icon:hover {
+ color:#444444;
+ transition: ease-in 0.5s;
+ }
+ 
